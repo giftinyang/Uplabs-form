@@ -1,10 +1,345 @@
 .form-background {
-    background-image: url('../assets/images/img_avatar2.png');
+    /* background-image: url('../assets/images/img_avatar2.png'); */
     height: 90vh;
     width: 100%;
     background-size: cover;
     border-radius: 10px;
     background-position: center;
+    background-color: orange;
+}
+
+.image-profile {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30%;
+}
+
+.icon{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 0.8rem;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    border: none;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+.containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    background: url('../assets/images/img_avatar2.png');
+    background-position: center;
+    background-size: cover;
+    /* padding: 30px; */
+    border-radius: 50px;
+    /* background-color: rgb(255, 8, 8); */
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerr:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerr input:checked ~ .checkmark {
+    background-color: rgb(243, 33, 33);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerr input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerr .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    background: url('../assets/images/img_avatar2.png');
+    background-position: center;
+    background-size: cover;
+    /* padding: 30px; */
+    border-radius: 50px;
+    /* background-color: rgb(255, 8, 8); */
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerr:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerr input:checked ~ .checkmark {
+    background-color: rgb(243, 33, 33);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerr input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerr .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+
+  /*  */
+  .containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmarkk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background: url('../assets/images/img_avatar2.png');
+    background-position: center;
+    background-size: cover;
+    /* padding: 30px; */
+    border-radius: 50px;
+    /* background-color: rgb(255, 8, 8); */
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerr:hover input ~ .checkmarkk {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerr input:checked ~ .checkmarkk {
+    background-color: rgb(243, 33, 33);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmarkk:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerr input:checked ~ .checkmarkk:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerr .checkmarkk:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmarkk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    background: url('../assets/images/img_avatar2.png');
+    background-position: center;
+    background-size: cover;
+    /* padding: 30px; */
+    border-radius: 50px;
+    /* background-color: rgb(255, 8, 8); */
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerr:hover input ~ .checkmarkk {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerr input:checked ~ .checkmarkk {
+    background-color: rgb(243, 33, 33);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmarkk:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerr input:checked ~ .checkmarkk:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerr .checkmarkk:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+#check input + label {
+    display: inline-block;	
+	width: 60px;
+	height: 30px;
+	cursor: pointer;	
+	background-image: url('../assets/images/img_avatar2.png');
 }
 
 .form-area {
@@ -12,7 +347,7 @@
 }
 
 .background-text {
-    margin-top: 90%;
+    margin-top: 20%;
 }
 
 .input-style {
