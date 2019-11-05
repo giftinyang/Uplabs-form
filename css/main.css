@@ -1,0 +1,34 @@
+.form-background {
+    background-image: url('../assets/images/img_avatar2.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.form-area {
+    border-radius: 10px;
+}
+
+.background-text {
+    margin-top: 90%;
+}
+
+.input-style {
+    width: 80%;
+    height: 6vh;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.button-style {
+    border-style: none;
+    width: 4.5rem;
+    border-radius: 3px;
+    height: 2rem;
+}
+
+.mrg-l {
+    margin-left: 67%;
+}
