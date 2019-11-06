@@ -1,5 +1,4 @@
 .form-background {
-    /* background-image: url('../assets/images/img_avatar2.png'); */
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -22,7 +21,6 @@
     height: 50px;
     border-radius: 50%;
     padding-top: 0.8rem;
-    /* text-align: center; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,19 +61,17 @@
     width: 0;
   }
   
-  /* Create a custom checkbox */
+  /* custom checkbox */
   .checkmark {
     position: absolute;
     top: 0;
     left: 0;
     height: 35px;
     width: 35px;
-    background: url('../assets/images/img_avatar2.png');
+    background: url('../assets/images/avatar1.png');
     background-position: center;
     background-size: cover;
-    /* padding: 30px; */
     border-radius: 50px;
-    /* background-color: rgb(255, 8, 8); */
   }
   
   /* On mouse-over, add a grey background color */
@@ -136,18 +132,16 @@
   }
   
   /* Create a custom checkbox */
-  .checkmark {
+  .checkmarkk {
     position: absolute;
     top: 0;
     left: 0;
     height: 35px;
     width: 35px;
-    background: url('../assets/images/img_avatar2.png');
+    background: url('../assets/images/avatar6.png');
     background-position: center;
     background-size: cover;
-    /* padding: 30px; */
     border-radius: 50px;
-    /* background-color: rgb(255, 8, 8); */
   }
   
   /* On mouse-over, add a grey background color */
@@ -210,7 +204,7 @@
     height: 0;
     width: 0;
   }
-  
+  /* card 1 */
   /* Create a custom checkbox */
   .checkmarkk {
     position: absolute;
@@ -221,7 +215,6 @@
     background: url('../assets/images/img_avatar2.png');
     background-position: center;
     background-size: cover;
-    /* padding: 30px; */
     border-radius: 50px;
     /* background-color: rgb(255, 8, 8); */
   }
@@ -283,6 +276,7 @@
     width: 0;
   }
   
+  /* card 2 */
   /* Create a custom checkbox */
   .checkmarkk {
     position: absolute;
@@ -290,7 +284,7 @@
     left: 0;
     height: 35px;
     width: 35px;
-    background: url('../assets/images/img_avatar2.png');
+    background: url('../assets/images/card.svg');
     background-position: center;
     background-size: cover;
     /* padding: 30px; */
@@ -334,12 +328,13 @@
   }
 
 
+  /* card 3 */
 #check input + label {
     display: inline-block;	
 	width: 60px;
 	height: 30px;
 	cursor: pointer;	
-	background-image: url('../assets/images/img_avatar2.png');
+	background-image: url('../assets/images/card.svg');
 }
 
 .form-area {
