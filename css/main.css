@@ -1,5 +1,5 @@
 .form-background {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     border-radius: 10px;
@@ -52,7 +52,6 @@
     user-select: none;
   }
   
-  /* Hide the browser's default checkbox */
   .containerr input {
     position: absolute;
     opacity: 0;
@@ -61,7 +60,7 @@
     width: 0;
   }
   
-  /* custom checkbox */
+ 
   .checkmark {
     position: absolute;
     top: 0;
@@ -74,29 +73,25 @@
     border-radius: 50px;
   }
   
-  /* On mouse-over, add a grey background color */
   .containerr:hover input ~ .checkmark {
     background-color: #ccc;
   }
   
-  /* When the checkbox is checked, add a blue background */
   .containerr input:checked ~ .checkmark {
     background-color: rgb(243, 33, 33);
   }
   
-  /* Create the checkmark/indicator (hidden when not checked) */
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
   
-  /* Show the checkmark when checked */
+  
   .containerr input:checked ~ .checkmark:after {
     display: block;
   }
   
-  /* Style the checkmark/indicator */
   .containerr .checkmark:after {
     left: 9px;
     top: 5px;
@@ -122,7 +117,7 @@
     user-select: none;
   }
   
-  /* Hide the browser's default checkbox */
+
   .containerr input {
     position: absolute;
     opacity: 0;
@@ -131,8 +126,8 @@
     width: 0;
   }
   
-  /* Create a custom checkbox */
-  .checkmarkk {
+
+  .checkmarkkk {
     position: absolute;
     top: 0;
     left: 0;
@@ -144,29 +139,27 @@
     border-radius: 50px;
   }
   
-  /* On mouse-over, add a grey background color */
+
   .containerr:hover input ~ .checkmark {
     background-color: #ccc;
   }
   
-  /* When the checkbox is checked, add a blue background */
+
   .containerr input:checked ~ .checkmark {
     background-color: rgb(243, 33, 33);
   }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
+
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
   
-  /* Show the checkmark when checked */
+ 
   .containerr input:checked ~ .checkmark:after {
     display: block;
   }
   
-  /* Style the checkmark/indicator */
   .containerr .checkmark:after {
     left: 9px;
     top: 5px;
@@ -180,9 +173,6 @@
   }
 
 
-
-
-  /*  */
   .containerr {
     display: block;
     position: relative;
@@ -196,7 +186,7 @@
     user-select: none;
   }
   
-  /* Hide the browser's default checkbox */
+  
   .containerr input {
     position: absolute;
     opacity: 0;
@@ -204,8 +194,7 @@
     height: 0;
     width: 0;
   }
-  /* card 1 */
-  /* Create a custom checkbox */
+  
   .checkmarkk {
     position: absolute;
     top: 0;
@@ -216,32 +205,27 @@
     background-position: center;
     background-size: cover;
     border-radius: 50px;
-    /* background-color: rgb(255, 8, 8); */
   }
+
   
-  /* On mouse-over, add a grey background color */
   .containerr:hover input ~ .checkmarkk {
     background-color: #ccc;
   }
   
-  /* When the checkbox is checked, add a blue background */
   .containerr input:checked ~ .checkmarkk {
     background-color: rgb(243, 33, 33);
   }
   
-  /* Create the checkmark/indicator (hidden when not checked) */
   .checkmarkk:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
-  /* Show the checkmark when checked */
+
   .containerr input:checked ~ .checkmarkk:after {
     display: block;
   }
   
-  /* Style the checkmark/indicator */
   .containerr .checkmarkk:after {
     left: 9px;
     top: 5px;
@@ -267,7 +251,6 @@
     user-select: none;
   }
   
-  /* Hide the browser's default checkbox */
   .containerr input {
     position: absolute;
     opacity: 0;
@@ -276,8 +259,6 @@
     width: 0;
   }
   
-  /* card 2 */
-  /* Create a custom checkbox */
   .checkmarkk {
     position: absolute;
     top: 0;
@@ -287,34 +268,31 @@
     background: url('../assets/images/card.svg');
     background-position: center;
     background-size: cover;
-    /* padding: 30px; */
     border-radius: 50px;
-    /* background-color: rgb(255, 8, 8); */
   }
   
-  /* On mouse-over, add a grey background color */
+ 
   .containerr:hover input ~ .checkmarkk {
     background-color: #ccc;
   }
   
-  /* When the checkbox is checked, add a blue background */
+
   .containerr input:checked ~ .checkmarkk {
     background-color: rgb(243, 33, 33);
   }
   
-  /* Create the checkmark/indicator (hidden when not checked) */
   .checkmarkk:after {
     content: "";
     position: absolute;
     display: none;
   }
   
-  /* Show the checkmark when checked */
+ 
   .containerr input:checked ~ .checkmarkk:after {
     display: block;
   }
   
-  /* Style the checkmark/indicator */
+  
   .containerr .checkmarkk:after {
     left: 9px;
     top: 5px;
@@ -328,7 +306,7 @@
   }
 
 
-  /* card 3 */
+
 #check input + label {
     display: inline-block;	
 	width: 60px;
@@ -361,4 +339,6 @@
 
 .mrg-l {
     margin-left: 67%;
+    margin-bottom: 2rem;
 }
+
