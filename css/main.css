@@ -1,5 +1,6 @@
+
 .form-background {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     border-radius: 10px;
@@ -316,12 +317,13 @@ input[type=text], select {
     display: inline-block;	
 	width: 60px;
 	height: 30px;
-	cursor: pointer;	
+    cursor: pointer;	
 	background-image: url('../assets/images/card.svg');
 }
 
 .form-area {
     border-radius: 10px;
+    height: 90vh;
 }
 
 .background-text {
@@ -345,6 +347,22 @@ input[type=text], select {
 .mrg-l {
     margin-left: 67%;
     margin-bottom: 2rem;
+}
+@media only screen and (max-width:400px){
+    .form-area-shadow{
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+    .icon{
+        margin-top: 50px !important;
+    }
+    .name p{
+        margin-left: -32px;
+    }
+
+    .mrg-l {
+       margin-left: 15px;
+    }
 }
 
 
